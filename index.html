@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5825/5825228.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <title>Tic tac toe</title>
+</head>
+<body>
+    <div class="container_btn">
+        <input type="button" value="Reiniciar" onclick="reiniciar()">
+    </div>
+
+    <div class="container">
+        <div class="display">
+            <div class="cell" id="cell_1" onclick="marcar(1)"></div>
+            <div class="cell" id="cell_2" onclick="marcar(2)"></div>
+            <div class="cell" id="cell_3" onclick="marcar(3)"></div>
+
+            <div class="cell" id="cell_4" onclick="marcar(4)"></div>
+            <div class="cell" id="cell_5" onclick="marcar(5)"></div>
+            <div class="cell" id="cell_6" onclick="marcar(6)"></div>
+            
+            <div class="cell" id="cell_7" onclick="marcar(7)"></div> 
+            <div class="cell" id="cell_8" onclick="marcar(8)"></div>
+            <div class="cell" id="cell_9" onclick="marcar(9)"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
